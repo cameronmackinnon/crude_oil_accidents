@@ -1,0 +1,11 @@
+sourcing the USA data:
+https://www.phmsa.dot.gov/data-and-statistics/pipeline/distribution-transmission-gathering-lng-and-liquid-accident-and-incident-data
+
+source CANADA data:
+https://open.canada.ca/data/en/dataset/7dffedc4-23fa-440c-a36d-adf5a6cc09f1
+
+CER-regulated CANADA data:
+https://open.canada.ca/data/en/dataset/fd17f08f-f14d-433f-91df-c90a34e1e9a6
+
+CANADA data from 1979-onwards (NOT RELIABLE!):
+https://open.canada.ca/data/en/dataset/3f273148-3aaf-4194-b846-04fbf524e476

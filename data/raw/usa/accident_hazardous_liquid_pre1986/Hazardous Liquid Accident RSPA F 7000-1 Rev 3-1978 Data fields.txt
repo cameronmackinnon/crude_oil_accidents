@@ -1,0 +1,166 @@
+ 
+Hazardous Liquid Accident data file fields from the year 1968 to 1985                               
+                                                                                                    
+****************************************************************************************************
+The following table describes the fields in the accompanying TXT file.  The table shows the field 
+name used by OPS, the data type, the maximum size of the field and a description of the field's 
+meaning. The word ""Part"" at a description's beginning indicates the part of the Hazardous Liquid 
+Accident report Form RSPA F 7000-1 (3-78) that the field represents.                                
+****************************************************************************************************
+                                                                                                    
+FIELD NAME                              TYPE      DESCRIPTION                                       
+                                                                                                    
+----------------------------------------------------------------------------------------------------
+REPORT_RECEIVED_YEAR                    Integer   Report Received year                              
+----------------------------------------------------------------------------------------------------
+IYEAR                                   Integer   Year the incident occurred.                       
+----------------------------------------------------------------------------------------------------
+YRLOG                                   Integer   Unique year log assigned by OPS.                  
+----------------------------------------------------------------------------------------------------
+UNIQUE_ID                               Integer   Unique record identifier.                         
+----------------------------------------------------------------------------------------------------
+REPORT_ID                               Integer   DOT assigned Id number for report (YR + LOG).     
+----------------------------------------------------------------------------------------------------
+OPERATOR_ID                             Integer   Part A.1. - DOT assigned number for the operator. 
+----------------------------------------------------------------------------------------------------
+OPERATOR_NAME                           Text      Part A.1. - Name of the pipeline operator or 
+                                                  company.                                          
+----------------------------------------------------------------------------------------------------
+STATE_CODE                              Text      Part A.2. - State where operator's business 
+                                                  office that sent in the report resides in.        
+----------------------------------------------------------------------------------------------------
+ACCIDENT_DATE                           Date      Part B.1. - Date the incident occurred. (YYYYMMDD)
+----------------------------------------------------------------------------------------------------
+ACCIDENT_HOURS                          Integer   Part B.2. - Time (hour) the incident took place. 
+                                                  (24 hour clock)                                   
+----------------------------------------------------------------------------------------------------
+ACCIDENT_MINUTES                        Integer   Part B.2. - Time (minute) the incident took 
+                                                  place. (24 hour clock)                            
+----------------------------------------------------------------------------------------------------
+ACCIDENT_STATE                          Text      Part B.3. - State where accident took place.      
+----------------------------------------------------------------------------------------------------
+ACCIDENT_COUNTY                         Text      Part B.3. - County where accident took place.     
+----------------------------------------------------------------------------------------------------
+ACCIDENT_CITY                           Text      Part B.3. - City at or near where accident took 
+                                                  place.                                            
+----------------------------------------------------------------------------------------------------
+SYS_PART_INVOLVED_TEXT                  Text      Part B.4. - Part of system involved; Line Pipe, 
+                                                  Tank Farm, Pump Station, Delivery Point, Other    
+----------------------------------------------------------------------------------------------------
+ORIGIN_LIQUID_RELEASE_TEXT              Text      Part C.   - Origin of release of liquid or vapor; 
+                                                  Pipe, Valve, Scraper Trap, Pump, Welded Fitting, 
+                                                  Girth Weld, Tank, Bolted Fitting, Longitudinal 
+                                                  Weld, Meter or Prover, Sample House, May Tank, 
+                                                  Strainer or Filter, Other.                        
+----------------------------------------------------------------------------------------------------
+PRIMARY_CAUSE_TEXT                      Text      Part D.   - Primary cause of the accident; 
+                                                  Corrosion, Defective Weld, Incorrect Operation by 
+                                                  Carrier Personnel, Defective Pipe, Equipment 
+                                                  Rupturing Line, Other                             
+----------------------------------------------------------------------------------------------------
+EMPLOYEE_FATALITIES                     Integer   Part E.1. - Number of operator employee 
+                                                  fatalities.                                       
+----------------------------------------------------------------------------------------------------
+NON_EMPLOYEE_FATALITIES                 Integer   Part E.1. - Number of non-employee fatalities.    
+----------------------------------------------------------------------------------------------------
+TOTAL_FATALITIES                        Integer   Total number of fatalities.                       
+----------------------------------------------------------------------------------------------------
+EMPLOYEE_INJURIES                       Integer   Part E.2. - Number of operator employees injured. 
+----------------------------------------------------------------------------------------------------
+NON_EMPLOYEE_INJURIES                   Integer   Part E.2. - Number of non-employees injured.      
+----------------------------------------------------------------------------------------------------
+TOTAL_INJURIES                          Integer   Total number of injured.                          
+----------------------------------------------------------------------------------------------------
+PRPTY_DAMAGE                            Integer   Part F.1. - Carrier's property damage.            
+----------------------------------------------------------------------------------------------------
+PRPTY_DAMAGE_ITEMS                      Text      Part F.2. - What items of carrier's property was 
+                                                  damaged.                                          
+----------------------------------------------------------------------------------------------------
+OTHER_PRPTY_DAMAGE                      Integer   Part F.3. - Other property damage.                
+----------------------------------------------------------------------------------------------------
+OTHER_PRPTY_DAMAGE_ITEMS                Text      Part F.2. - What items of other property was 
+                                                  damaged.                                          
+----------------------------------------------------------------------------------------------------
+TOTAL_PRPTY_DAMAGE                      Integer   Total property damage.                            
+----------------------------------------------------------------------------------------------------
+COMMODITY                               Text      Part G.1. - Name of commodity spilled.            
+----------------------------------------------------------------------------------------------------
+LOSS_BBLS                               Integer   Part G.2. - Estimated gross amount of barrels 
+                                                  spilled.                                          
+----------------------------------------------------------------------------------------------------
+FACILITY_INSTALLED_YR                   Integer   Part G.3. - Year the facility was installed 
+                                                  (excluding pipe).                                 
+----------------------------------------------------------------------------------------------------
+IS_FIRE                                 Text      Part G.4. - Was there a Fire? (Y/N).              
+----------------------------------------------------------------------------------------------------
+IS_EXPLOSION                            Text      Part G.5. - Was there an explosion? (Y/N).        
+----------------------------------------------------------------------------------------------------
+NOMINAL_DIAMETER                        Real      Part H.1. - Nominal Diameter (inches).            
+----------------------------------------------------------------------------------------------------
+WALLTHKNESS                             Real      Part H.2. - Wall thickness (inches).              
+----------------------------------------------------------------------------------------------------
+PIPE_GRADE                              Text      Part H.3. - Pipe Grade.                           
+----------------------------------------------------------------------------------------------------
+PIPE_INSTALLED_YR_TEXT                  Text      Part H.4. - Approximate year pipe was installed . 
+----------------------------------------------------------------------------------------------------
+PIPE_INSTALLED_YR_SPECIFIED             Integer   Part H.4. - Year specified when pipeline was 
+                                                  installed .                                       
+----------------------------------------------------------------------------------------------------
+PIPE_CONDITION_TEXT                     Text      Part H.5. - Condition of pipe when installed.     
+----------------------------------------------------------------------------------------------------
+JOINT_TEXT                              Text      Part H.6. - Type of joint; Welded, Threaded, 
+                                                  Coupled.                                          
+----------------------------------------------------------------------------------------------------
+PIPE_CONFIGRATION_TEXT                  Text      Part H.7. - Configuration of pipe at point of 
+                                                  accident.                                         
+----------------------------------------------------------------------------------------------------
+PIPE_COAT                               Text      Part H.8. - Pipe was Coated (Yes), Not Coated (No)
+----------------------------------------------------------------------------------------------------
+IS_ABOVE_GROUND_TEXT                    Text      Part H.9. - Pipe was above ground? below ground?  
+----------------------------------------------------------------------------------------------------
+DEPTH_OF_COVER                          Integer   Part H.10. - Depth of cover (inches) if  pipe was 
+                                                  below ground.                                     
+----------------------------------------------------------------------------------------------------
+MAX_ALLOWABLE_PRESSURE                  Integer   Part H.11. - Design pressure (psig).              
+----------------------------------------------------------------------------------------------------
+ESTIMATE_ACC_PRESSURE                   Integer   Part H.12. - Pressure (psig) at time and location 
+                                                  of accident.                                      
+----------------------------------------------------------------------------------------------------
+IS_PRESSURE_TEST                        Text      Part H.13. - Was there a pressure test? (Y/N)     
+----------------------------------------------------------------------------------------------------
+TEST_MEDIUM_TEXT                        Text      Part H.14. - If a pressure test on system is Yes, 
+                                                  what Medium Used                                  
+----------------------------------------------------------------------------------------------------
+TEST_DURATION                           Integer   Part H.15. - Test duration (hrs).                 
+----------------------------------------------------------------------------------------------------
+MAX_TEST_PRESSURE                       Integer   Part H.16. - Maximum test pressure (psig).        
+----------------------------------------------------------------------------------------------------
+LAST_TEST_MONTH                         Integer   Part H.17. - Month test was last run.             
+----------------------------------------------------------------------------------------------------
+LAST_TEST_YEAR                          Integer   Part H.17. - Year test was last run.              
+----------------------------------------------------------------------------------------------------
+CORROSION_TYPE_TEXT                     Text      Part I.1. - Accident cause by Corrosion: Type of 
+                                                  Corrosion                                         
+----------------------------------------------------------------------------------------------------
+IS_FAC_COATED                           Text      Part I.2. - Accident cause by Corrosion: Was 
+                                                  facility coated? (Y/N)                            
+----------------------------------------------------------------------------------------------------
+IS_CATHODICALLY_PROTECTED               Text      Part I.3. - Accident cause by Corrosion: Was 
+                                                  facility catholically protected? (Y/N)            
+----------------------------------------------------------------------------------------------------
+TIME_BTW_CORR_TEST                      Integer   Part I.4. - Accident cause by Corrosion: Time 
+                                                  between corrosion tests (months).                 
+----------------------------------------------------------------------------------------------------
+TYPE_OF_TEST                            Text      Part I.4. - Accident cause by Corrosion: Type of 
+                                                  Test Used                                         
+----------------------------------------------------------------------------------------------------
+DISTANCE_TO_LINE_MARKER                 Integer   Part J.1. - Accident cause by Equipment Rupturing 
+                                                  Pipeline: Distance to closest line marker.        
+----------------------------------------------------------------------------------------------------
+PATROL_TIME                             Integer   Part J.1. - Accident cause by Equipment Rupturing 
+                                                  Pipeline: Time between patrols (days).            
+----------------------------------------------------------------------------------------------------
+DATE_ENTERED                            Date      Date record entered into database.                
+----------------------------------------------------------------------------------------------------
+DATE_LAST_CHNAGED                       Date      Date record last changed.                         
+----------------------------------------------------------------------------------------------------
