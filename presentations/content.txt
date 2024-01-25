@@ -14,7 +14,7 @@ i.e. what properties of crude oil could be responsible for pipeline accidents?
     ^ "survey of crude oil characteristics.pdf" is really good for this information
 - starting with PHMSA data (USA) and not CER
 
-# physical chemical properties of crude oil
+# physical or chemical properties of crude oil
 - hydrocarbons
 - by weight: lots of carbon, some hydrogen
 - light, medium, heavy (API gravity - relative weight to water (10 degrees))
@@ -25,8 +25,13 @@ i.e. what properties of crude oil could be responsible for pipeline accidents?
     - sour is more corrosive than sweet;
     - heavier affects how it flows - more pressure and energy required to pump the oil
 
-# Data
+# Crude vs. Other
+see if you can find any trends when look at corrosion for crude oil vs. other substances
+
+# Crude only
+THEN look for trends specifically within crude oil
 FILTER for material/corrosion incidents only to start! 
+
 
 add-on:
 https://oil-transport.info/crude-data?data=crude&record=1
