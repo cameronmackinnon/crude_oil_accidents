@@ -42,6 +42,9 @@ add-on:
 https://oil-transport.info/crude-data?data=crude&record=1
 check this site to see if any of the oil names from the US come up here? could add API (weight) data if so
 
+## usa/crude characterisitics
+- tried a bunch of models and they gave nothing; go through iteration process
+
 
 - look thorugh/mention/incorporate validere blog posts
 
