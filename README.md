@@ -22,3 +22,5 @@ macOS/Linux: source .venv/bin/activate
 ## Step 3:
 Install requirements:
 pip install -r requirements.txt (may need to upgrade pip using "pip install --upgrade pip" first)
+
+## Run src/dataset_{x} where x is in ['A', 'B', 'E'] based on which dataset you want to look at
