@@ -27,6 +27,11 @@ i.e. what properties of crude oil could be responsible for pipeline accidents?
 
 # Crude vs. Other
 see if you can find any trends when look at corrosion for crude oil vs. other substances
+- performed logistic regression to see if you could determine crude vs. non-crude based on qualitative columns
+    - specifically, used "what happened" and "details of what happened" columns
+    - unable to consistently predict; could be a result of more non-crude than crude or incomplete data
+synthetic: light; can't label sulfur
+https://www.oilsandsmagazine.com/technical/product-streams
 
 # Crude only
 THEN look for trends specifically within crude oil
@@ -38,7 +43,7 @@ https://oil-transport.info/crude-data?data=crude&record=1
 check this site to see if any of the oil names from the US come up here? could add API (weight) data if so
 
 
-
+- look thorugh/mention/incorporate validere blog posts
 
 
 # conclusion
