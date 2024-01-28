@@ -3,12 +3,12 @@ Analyzing qualities of crude oil that could cause pipeline accidents
 
 # Reproducibility
 ## Step 1:
-Ensure you have python3.x installed.
-Windows: download latest version from python.org
+Ensure you have python3.x installed. <br>
+Windows: download latest version from python.org<br>
 macOS: brew install python (install homebrew if you don't already have it)
 
-Double check your version of python and pip using:
-python --version (or python3 --version)
+Double check your version of python and pip using:<br>
+python --version (or python3 --version)<br>
 pip --version
 
 ## Step 2:
@@ -23,4 +23,5 @@ macOS/Linux: source .venv/bin/activate
 Install requirements:
 pip install -r requirements.txt (may need to upgrade pip using "pip install --upgrade pip" first)
 
-## Run src/dataset_{x} where x is in ['A', 'B', 'E'] based on which dataset you want to look at
+## Step 4:
+Run src/dataset_{x} where x is in ['A', 'B', 'E'] based on which dataset you want to look at
