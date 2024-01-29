@@ -24,4 +24,4 @@ Install requirements:
 pip install -r requirements.txt (may need to upgrade pip using "pip install --upgrade pip" first)
 
 ## Step 4:
-Run src/dataset_{x} where x is in ['A', 'B', 'E'] based on which dataset you want to look at
+Navigate to the src folder and run dataset_{x}.ipynb where x is in ['A', 'B', 'E'] based on which dataset you want to look at.
